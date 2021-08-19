@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.5%;
+  color: #F875AA;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #F875AA;
+  font-size: 200%;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FF577F;
+  font-weight: normal;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #FCD8D4;
+  border-width: 10px;
+  width: 5%;
+}
+
+.footer-link {
+  color: #FF577F;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 10px 20px;
+  text-decoration:none;
+  align-items: center;
+}
+
+.footer-link:hover {
+  color: white;
+}
+.header {
+  background-color: #FF577F;
+  height: 32px;
+  padding-top: 14px;
+}
+.header-link {
+  color: #FCD8D4;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 20px;
+  text-decoration:none;
+}
+.header-link:hover {
+  color: white;
+}
+
+.top-container {
+  background-color: #FCD8D4;
+  position:relative;
+  padding-top: 70px;
+  padding-bottom: 45px;
+}
+.middle-container {
+  padding-top: 30px;
+  padding-bottom: 80px;
+  font-size: 20px;
+}
+.bottom-container {
+  padding-top: 50px;
+  background-color: #FCD8D4;
+  padding-bottom: 10px;
+}
+.subtitle {
+  font-weight: bold;
+}
+.profile {
+  padding-bottom: 50px;
+}
+.goals {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.skills {
+  padding-top: 30px;
+}
+
+.skill-row {
+  width: 40%;
+  margin: 80px auto 80px auto;
+  text-align: left;
+  line-height: 2;
+}
+.contact-me {
+  padding-top: 30px;
+}
+
+.btn {
+  -webkit-border-radius: 32;
+  -moz-border-radius: 32;
+  border-radius: 32px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #FF577F;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FCD8D4;
+  text-decoration: none;
+}
+
+.bottomcloud {
+  width: 180px;
+  position:absolute;
+  left: 300px;
+  bottom: 250px;
+
+}
+.copyright {
+  color: #FF577F;
+  padding: 20px 0 10px 0;
+  font-size: 0.75rem
+}
+
+.topcloud {
+  width: 180px;
+    position:absolute;
+    right:280px;
+    top:100px;
+}
+.girl {
+  width: 300px;
+  position: relative;
+  top: 50px;
+}
+.socialmedia {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 10px;
+
+}
+.webdevelopment {
+  width: 25%;
+  float: right;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.socialmediaicons {
+  width: 60px;
+  margin: 5px 15px 0 35px;
+}
+.icons {
+  margin-right: 30px;
+}
+
+
+/* Common block elements -
+<p>
+<h1-h6>
+<div>
+lists
+forms */
+
+/* Positioning
+Static - go along w HTML rules
+Relative - relative to static positioning
+Coordinates - set values for Top Bottom Left Right
+Absolute - adding a margin to its parent element, it affects the flow of html
+fixed - the element will be fixed as we scroll
+margin:0,auto,0,auto (centre (auto means centre))
+clear: anti-float
+*/
+
+/*
+Google Fonts
+rem - font size of fixed em (rem is better - more reliable)
+ */
+
+ .contactform {
+   padding-top: 70px;
+   padding-bottom: 80px;
+   color: black;
+   font-weight: bold;
+ }
+ .name {
+   padding-right: 20px;
+   margin-bottom: 10px;
+ }
+ .email {
+   padding-right: 20px;
+   margin-bottom: 10px;
+ }
+ .message {
+
+ }
